@@ -9,24 +9,24 @@ h1,h2,h3,h4,h5,h6{font-family:'Sen';font-weight:700;color:#231F20}
 .container-width{max-width:1600px!important}
 .navbar-collapse .navbar-nav .nav-item{padding-right:40px;padding-left:40px}
 .navbar-collapse .navbar-nav .nav-link{color:#4F4F4F;font-weight:700;font-size:16px;padding-right:0;padding-left:0;line-height:20px;transition:.2s linear;position:relative}
-.navbar-collapse .navbar-nav .nav-link:after{content:'';background:#F2B928;width:0;height:0;margin:0 auto;position:absolute;bottom:1px;left:0;right:0;transition:all .3s ease}
+.navbar-collapse .navbar-nav .nav-link:after{content:'';background:#F2B928;width:0;height:0;margin:0 auto;position:absolute;bottom:1px;left:0;transition:all .3s ease}
 .navbar-collapse .navbar-nav .nav-link:hover,.navbar-collapse .navbar-nav .nav-link.active{color:#231F20}
 .navbar-collapse .navbar-nav .nav-link:hover:after,.navbar-collapse .navbar-nav .nav-link.active:after{width:100%;height:2px;color:#000}
 .navbar-collapse .navbar-nav .active .nav-link,.navbar-collapse .navbar-nav .active .nav-link:after{width:100%;height:2px;color:#000;display:inline-table}
 a.contact{background:#F2B928;width:112px;color:#000;font-size:16px;text-align:center;border-radius:25px;padding:9px 25px;border:1px solid #F2B928;font-family:SenBold;transition:all .3s linear}
 /*a.contact:hover{color:#000;background:#fff;border:1px solid #F2B928;text-decoration:none}
 */
-a.contact:hover{text-decoration:none;background:#F2B928;padding:7px 22px;width:106px;border:2px solid #F2B928;box-shadow:0 9px 25px -4px rgba(231,166,26,1)}
+a.contact:hover{text-decoration:none;background:#F2B928;padding:7px 22px;width:106px;border:2px solid #F2B928;box-shadow:0 3px 15px -4px rgba(231,166,26,1)}
 a.contact:focus{background:#F2D281;border:2px solid #F2D281}
-.bannersection{padding:94px 0 30px 0;position:relative;overflow:hidden;/*background:url(../images/banner.png) no-repeat;background-position:center bottom;*/transition:all ease}
-.bannersection:before{content:'';position:absolute;display:block;background:url(../images/banner-ellipse.png) no-repeat left top;width:200px;height:250px;right:-50px;bottom:74px;z-index:-1;overflow:hidden;transition:all ease}
+.bannersection{padding:94px 0 300px 0;position:relative;overflow:hidden;background:url(../images/banner.png) no-repeat;background-position:center bottom;transition:all ease}
+.bannersection:before{content:'';position:absolute;display:block;background:url(../images/banner-ellipse.png) no-repeat left top;width:200px;height:250px;right:-50px;bottom:92px;z-index:-1;overflow:hidden;transition:all ease}
 .core-layer-3{ width: 113% }
 .bannersection h1{font-size:62px;text-align:center;color:#000;font-family:SenBold}
 .bannersection h1 span{color:#B5B5B5}
 .bannersection p{font-size:17px;text-align:center;color:#000;width:70%;padding-top:20px}
 .call_btn{height:61px}
 a.call_action{font-size:25px;text-align:center;color:#000;border-radius:30px;padding:10px 25px;border:2px solid #000;margin-top:30px;width:250px;display:block;font-family:SenBold;transition:all .3s linear}
-a.call_action:hover{text-decoration:none;background:#F2B928;padding:7px 22px;width:243px;border:2px solid #F2B928;box-shadow:0 9px 25px -4px rgba(231,166,26,1)}
+a.call_action:hover{text-decoration:none;background:#F2B928;padding:7px 22px;width:243px;border:2px solid #F2B928;box-shadow:0 9px 15px -4px rgba(231,166,26,1)}
 a.call_action:focus{background:#F2D281;border:2px solid #F2D281}
 .whatwedosection{padding:0 0 80px;position:relative;margin-top:-63px}
 .whatwedosection .content{width:70%;position:relative}
@@ -37,30 +37,33 @@ a.call_action:focus{background:#F2D281;border:2px solid #F2D281}
 .whatwedosection ul.listing li{padding:19px 0 19px 20px}
 .whatwedosection ul.listing li:first-child{padding-top:0}
 .whatwedosection ul.listing li:nth-child(even){padding:19px 0 19px 50px}
-.casestudies{padding:80px 15px;position:relative; background: url('../images/feature_curve.png') no-repeat right top; display: block;background-size: 40%;}
+
+.casestudies{padding:80px 15px 50px 15px;position:relative; background: url('../images/feature_curve.png') no-repeat right top; display: block;background-size: 40%;}
 .casestudies h2{font-size:62px;line-height:74px;font-family:SenBold;margin-left:202px;margin-bottom:47px}
 .casestudies h2 span{color:#B5B5B5}
 .casestudies:before{background:#F2B928;border-radius:50%;content:'';position:absolute;display:block;left:-412px;width:700px;height:700px;z-index:-1;top:-51px}
+.shadow{box-shadow:0 6px 24px -12px rgba(0,0,0,0.75)}
 .casestudies .col-md-8{padding:0}
-.casestudies .imagesec{min-height:703px;background:url(../images/food_nirvana.png) no-repeat center top;background-size:cover}
-.casestudies .col-md-4{padding:0;box-shadow:0 6px 24px -12px rgba(0,0,0,0.75)}
-.casestudies .contsec{background:#fff;padding:100px 50px}
+.casestudies .imagesec{min-height:600px;background:url(../images/food_nirvana.png) no-repeat center top;background-size:cover}
+.casestudies .col-md-4{padding:0;}
+.casestudies .contsec{background:#fff;padding:0px 50px; overflow: hidden;min-height: 650px }
 .casestudies .contsec h3{font-size:38px;line-height:42px;font-family:SenBold}
 .casestudies .contsec p{font-size:17px;line-height:27px;padding-top:15px}
 .casestudies .contsec a{font-size:18px;text-decoration:none;color:#000;padding-top:27px;display:block}
 .casestudies .contsec a:after{border-bottom:2px solid #F2B928;content:'';position:relative;display:block;width:140px;transition:all .5s linear}
 .casestudies .contsec a:hover:after{border-bottom:2px solid #333}
 .foodnirvana{padding:0 15px;position:relative}
-.foodnirvana .col-md-4{padding:0;box-shadow:0 6px 24px -12px rgba(0,0,0,0.75)}
-.foodnirvana .imgsec{min-height:703px;background:url(../images/food_nirvana.png) no-repeat center top;background-size:cover;min-height:703px}
-.foodnirvana .textsec{padding:100px 50px}
+.foodnirvana .col-md-4{padding:0;}
+.foodnirvana .imgsec{min-height:703px;background:url(../images/food_nirvana.png) no-repeat center top;background-size:cover;min-height:600px}
+.foodnirvana .textsec{padding:0px 50px; overflow: hidden;min-height: 650px}
 .foodnirvana .textsec h3{font-size:38px;line-height:42px;font-family:SenBold}
 .foodnirvana .textsec p{font-size:17px;line-height:27px;padding-top:15px}
 .foodnirvana .textsec a{font-size:18px;text-decoration:none;color:#000;padding-top:27px;display:block}
 .foodnirvana .textsec a:after{border-bottom:2px solid #F2B928;content:'';position:relative;display:block;width:140px;transition:all .5s linear}
 .foodnirvana .textsec a:hover:after{border-bottom:2px solid #333}
-.footcontents{padding:200px 0 100px;position:relative;text-align:center}
-.footcontents .stringcontent:before{background:#F2B928;border-radius:50%;content:'';position:absolute;display:block;left:54px;width:135px;height:135px;z-index:-1;top:-38px}
+.footcontents{padding:150px 0 50px;position:relative;text-align:center}
+.footcontents .stringcontent{overflow: hidden; padding: 40px 0 40px 0}
+.footcontents .stringcontent:before{background:#F2B928;border-radius:50%;content:'';position:absolute;display:block;left:54px;width:135px;height:135px;z-index:-1;top:0px}
 .footcontents .stringcontent h3{font-size:52px;line-height:58px;font-family:SenBold}
 .footcontents .stringcontent p{font-size:17px;line-height:30px;padding-top:5px}
 .footcontents .stringcontent a.call_action{margin-top:45px}
@@ -84,13 +87,15 @@ footer a:hover{color:#F2B928; text-decoration: none}
 }
 @media screen and (max-width:1440px) {
 	.bannersection::before {  bottom: 17px;right: -53px;}
+	.casestudies { padding: 40px 40px 80px 40px;}	
+	.foodnirvana{padding:0 40px;}
 .casestudies h2 {font-size: 48px;margin-left: 235px;}
 .casestudies .imagesec,.foodnirvana .imgsec{min-height:600px}
 }
 @media screen and (max-width:1366px) {
 .bannersection{background:url(../images/banner.png) no-repeat 72% 125%;padding-bottom:357px}
 
-.bannersection::before { bottom: -1px;right: -60px;}
+
 .core-layer-3 {  width: 110%;}
 .casestudies::before{background:#F2B928;border-radius:50%;content:'';position:absolute;display:block;left:-522px}
 .casestudies h2{font-size:52px;margin-left:150px}
@@ -117,15 +122,17 @@ footer a:hover{color:#F2B928; text-decoration: none}
 .social a { padding: 16px 7px;}
 }
 @media screen and (max-width:992px) {
+.container{max-width:98%}
 .navbar-collapse .navbar-nav .nav-item{padding-right:19px;padding-left:18px}
 .bannersection{background:url(../images/banner.png) no-repeat 79% bottom;padding-bottom:410px}
+.bannersection::before { bottom: 93px;}
 .bannersection h1{font-size:40px}
 .bannersection p{font-size:15px}
 a.call_action{font-size:20px}
-.whatwedosection{margin-top:-105px}
+.whatwedosection{margin-top:-195px}
 .whatwedosection .content h2{font-size:45px}
 .whatwedosection .content p{font-size:15px}
-.casestudies { padding: 40px 15px 80px 15px; background-size: 80%;}
+.casestudies { padding: 40px 40px 80px 40px; background-size: 80%;}
 .casestudies h2{font-size:31px}
 .footcontents .stringcontent h3{font-size:38px}
 .casestudies .contsec h3,.foodnirvana .contsec .textsec h3{font-size:22px}
@@ -139,15 +146,14 @@ footer a{padding:16px 5px}
 .navbar-collapse .navbar-nav .nav-item{padding-right:10px;padding-left:10px}
 .navbar-collapse .navbar-nav .nav-link{font-size:14px}
 .bannersection h1{font-size:35px}
-.bannersection {background: url(../images/banner.png) no-repeat 81% 131%;padding-bottom: 350px;}
+.bannersection {background: url(../images/banner.png) no-repeat 81% bottom;padding-bottom: 400px;}
 a.call_action{font-size:18px;padding:6px 25px;width:186px}
 a.call_action:hover{font-size:18px;padding:4px 25px;width:180px}
+.whatwedosection { margin-top: -205px;}
 .whatwedosection .content{width:93%}
 .whatwedosection .content h2{font-size:35px}
 }
-@media (max-width: 992px) {
-.container{max-width:98%}
-}
+
 @media screen and (max-width:767px) {
 .navbar-light .navbar-toggler{color:rgba(0,0,0,.5);border-color:rgba(0,0,0,0)}
 .bannersection{padding-top:55px}
@@ -156,16 +162,22 @@ a.call_action:hover{font-size:18px;padding:4px 25px;width:180px}
 .whatwedosection .content{width:93%}
 .whatwedosection ul.listing li{font-size:15px;padding:20px 0 20px 20px}
 .casestudies .imagesec,.foodnirvana .imgsec{min-height:400px}
-.casestudies .contsec,.foodnirvana .textsec { padding: 80px 50px;}
+.casestudies .contsec,.foodnirvana .textsec { padding: 80px 50px;min-height: auto}
 .footcontents .stringcontent h3{font-size:28px}
 .footcontents .stringcontent::before{left:29px}
 .footcontents .stringcontent p{font-size:13px}
 footer .foot_menu{text-align:center}
 footer .text-right{text-align:center!important;margin-top:15px}
 .social a{font-size:23px}
+#box{position: relative;
+width: 100%;
+left: 0 !important;
+margin-left: 0 !important;}
+.casestudies h2{ margin-left: 50px }
 }
 @media screen and (max-width:640px) {
 .bannersection {background: url(../images/banner.png) no-repeat 83% bottom;}
+.whatwedosection { margin-top: -250px;}
 }
 @media screen and (max-width:572px) {
 .casestudies h2 { font-size: 27px;}
@@ -174,9 +186,11 @@ footer .text-right{text-align:center!important;margin-top:15px}
 .whatwedosection ul.listing{margin-left:20px}
 }
 @media screen and (max-width:480px) {
-.bannersection {background: url(../images/banner.png) no-repeat 90% bottom / 225%;padding-bottom: 215px;}
+.bannersection {background: url(../images/banner.png) no-repeat 90% 82% / 225%;padding-bottom: 280px;}
+.whatwedosection { margin-top: -180px;}
+
 .casestudies .imagesec,.foodnirvana .imgsec{min-height:335px}
-.casestudies h2{font-size:24px;margin-left:10px}
+.casestudies h2{font-size:24px;margin-left:10px;line-height: 40px;}
 .footcontents .stringcontent h3{line-height:41px}
 .footcontents .stringcontent::before{left:3px}
 .bannersection:before {background: url(../images/banner-ellipse.png) no-repeat left top / 100%;width: 200px;height: 138px;right: -64px;}
@@ -184,5 +198,15 @@ footer .text-right{text-align:center!important;margin-top:15px}
 }
 @media screen and (max-width:375px) {
 .bannersection {background: url(../images/banner.png) no-repeat 90% bottom / 300%;padding-bottom: 215px;}
+.bannersection::before {
+    bottom: -0px;
+}
+.whatwedosection {
+    margin-top: -95px;
+}
 .casestudies .imagesec,.foodnirvana .imgsec{min-height:300px}
+}
+
+
+
 }
