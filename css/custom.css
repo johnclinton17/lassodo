@@ -9,9 +9,9 @@ h1,h2,h3,h4,h5,h6{font-family:'Sen';font-weight:700;color:#231F20}
 .container-width{max-width:1600px!important}
 .navbar-collapse .navbar-nav .nav-item{padding-right:40px;padding-left:40px}
 .navbar-collapse .navbar-nav .nav-link{color:#4F4F4F;font-weight:700;font-size:16px;padding-right:0;padding-left:0;line-height:20px;transition:.2s linear;position:relative}
-.navbar-collapse .navbar-nav .nav-link:after{content:'';background:#F2B928;width:0;height:0;margin:0 auto;position:absolute;bottom:1px;left:0;transition:all .3s ease}
+.navbar-collapse .navbar-nav .nav-link:after{content:'';background:transparent;width:0;height:2px;margin:0 auto;position:absolute;bottom:1px;left:0;transition:all .3s ease}
 .navbar-collapse .navbar-nav .nav-link:hover,.navbar-collapse .navbar-nav .nav-link.active{color:#231F20}
-.navbar-collapse .navbar-nav .nav-link:hover:after,.navbar-collapse .navbar-nav .nav-link.active:after{width:100%;height:2px;color:#000}
+.navbar-collapse .navbar-nav .nav-link:hover:after,.navbar-collapse .navbar-nav .nav-link.active:after{width:100%;height:2px;color:#000;background: #F2B928}
 .navbar-collapse .navbar-nav .active .nav-link,.navbar-collapse .navbar-nav .active .nav-link:after{width:100%;height:2px;color:#000;display:inline-table}
 a.contact{background:#F2B928;width:112px;color:#000;font-size:16px;text-align:center;border-radius:25px;padding:9px 25px;border:1px solid #F2B928;font-family:SenBold;transition:all .3s linear}
 /*a.contact:hover{color:#000;background:#fff;border:1px solid #F2B928;text-decoration:none}
